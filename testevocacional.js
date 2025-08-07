@@ -5,11 +5,11 @@ function resultado() {
   for (var i = 0; i < respostas.length; i++) {
     if (respostas[i].checked) {
       var valor = respostas[i].value;
-      if (valor === "a") a++;
-      else if (valor === "b") b++;
-      else if (valor === "c") c++;
-      else if (valor === "d") d++;
-      else if (valor === "e") e++;
+      if (valor == "a") a++;
+      else if (valor == "b") b++;
+      else if (valor == "c") c++;
+      else if (valor == "d") d++;
+      else if (valor == "e") e++;
     }
   }
 
@@ -74,4 +74,5 @@ else if (resultado == "e") {
     <p><strong>Exemplos de profissões:</strong> Médico(a), Enfermeiro(a), Psicólogo(a), Veterinário(a), Biólogo(a), Nutricionista, Fisioterapeuta, Terapeuta Ocupacional, Farmacêutico(a), Zootecnista, Técnico(a) em Meio Ambiente, Educador(a) Ambiental.</p>
   `;
 }
+
 }
